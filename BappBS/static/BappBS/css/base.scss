@@ -1,0 +1,36 @@
+$bodyBgColor: rgba(168, 190, 209, 0.336);
+$navBgcolor : rgb(88, 101, 158);
+// $parallax_url: "{% static ''%}";
+// $parallax_url: "../media/bgs/claudio-testa-U3F2o6vz3bs-unsplash.jpg";
+
+body {
+    background-color : $bodyBgColor;
+    min-height: 400%;
+}
+
+// from root/tempaltes/base.html
+.customClass {
+    background-color: $navBgcolor;
+}
+// parallax-start
+.parallax {
+    /* The image used */
+    background-image: url("../images/1004-5616x3744.jpg");
+    /* Set a specific height */
+    min-height: 750px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+// parallax send
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}

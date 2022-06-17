@@ -1,0 +1,31 @@
+body {
+  background-color: rgba(168, 190, 209, 0.336);
+  min-height: 400%;
+}
+
+.customClass {
+  background-color: #58659e;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/1004-5616x3744.jpg");
+  /* Set a specific height */
+  min-height: 750px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/*# sourceMappingURL=base.css.map */
